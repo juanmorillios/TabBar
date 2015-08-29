@@ -51,9 +51,6 @@ local tabButtons =
     label = "Screen 1",
     onPress = function () storyboard.gotoScene("screen3"); end,
 
-
-
-
     }
 
 }
@@ -63,7 +60,7 @@ local tabButtons =
 local barra = widget.newTabBar
 
 {
-
+    --Propiedades de la barra contenedora del los botones TabBAr
     top = display.contentHeight - 8,
     width = display.contentWidth,
     backGroundFile = "assets/tabBar.png",
